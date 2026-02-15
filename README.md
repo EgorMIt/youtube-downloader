@@ -24,14 +24,16 @@
 - Python 3.9+
 - FFmpeg (для конвертации в MP3)
 
-### Шаг 1: Клонировать репозиторий
+### Шаг 1: Скачать скрипт
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/youtube-downloader.git
+# Вариант 1: Клонировать весь репозиторий
+git clone https://github.com/EgorMIt/youtube-downloader.git
 cd youtube-downloader
-```
 
-> ⚠️ Замените `YOUR_USERNAME` на ваше имя пользователя GitHub
+# Вариант 2: Скачать только скрипт
+curl -O https://raw.githubusercontent.com/EgorMIt/youtube-downloader/main/youtube_downloader.py
+```
 
 ### Шаг 2: Установить зависимости
 
