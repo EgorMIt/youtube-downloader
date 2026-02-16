@@ -39,7 +39,7 @@ def check_if_playlist(url):
 
 def try_get_cookies():
     """Пытается получить cookies из доступных браузеров"""
-    browsers = ['chrome', 'chromium', 'safari', 'firefox', 'edge', 'opera', 'brave']
+    browsers = ['safari', 'chrome', 'chromium', 'firefox', 'edge', 'opera', 'brave']
     
     for browser in browsers:
         try:
